@@ -1,0 +1,5 @@
+{
+  "name": "Ratoc RS-WFWATTCH2 Watt Checker",
+  "render_readme": true,
+  "homeassistant": "2024.12.0"
+}
