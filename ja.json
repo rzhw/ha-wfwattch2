@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "RS-WFWATTCH2 デバイスの追加",
+        "description": "ラトック RS-WFWATTCH2 ワットチェッカーのIPアドレスを入力してください。デバイスは同じネットワーク上にある必要があります。",
+        "data": {
+          "name": "デバイス名",
+          "host": "IPアドレス",
+          "port": "ポート"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "デバイスに接続できませんでした。IPアドレスを確認し、電源が入っていて同じネットワーク上にあることを確認してください。"
+    },
+    "abort": {
+      "already_configured": "このデバイスは既に設定されています。"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "RS-WFWATTCH2 オプション",
+        "data": {
+          "scan_interval": "更新間隔（秒）"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "power": {
+        "name": "消費電力"
+      },
+      "current": {
+        "name": "電流"
+      },
+      "voltage": {
+        "name": "電圧"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "domain": "wfwattch2",
+  "name": "Ratoc RS-WFWATTCH2 Watt Checker",
+  "codeowners": ["@rzhw"],
+  "config_flow": true,
+  "documentation": "https://github.com/rzhw/ha-wfwattch2",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/rzhw/ha-wfwattch2/issues",
+  "version": "0.1.0"
+}

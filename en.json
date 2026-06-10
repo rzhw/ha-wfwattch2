@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add RS-WFWATTCH2 Device",
+        "description": "Enter the IP address of your Ratoc RS-WFWATTCH2 Watt Checker. The device must be on the same network.",
+        "data": {
+          "name": "Device name",
+          "host": "IP address",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the device. Check the IP address and ensure it is powered on and on the same network."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "RS-WFWATTCH2 Options",
+        "data": {
+          "scan_interval": "Scan interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "power": {
+        "name": "Power"
+      },
+      "current": {
+        "name": "Current"
+      },
+      "voltage": {
+        "name": "Voltage"
+      }
+    }
+  }
+}
