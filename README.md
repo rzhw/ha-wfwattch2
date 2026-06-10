@@ -24,7 +24,7 @@ Custom Home Assistant integration for Ratoc RS-WFWATTCH2.
 5. Enter a name and the device's IP address
 6. The integration will test the connection, then create power and voltage sensors
 
-## Acknolwedgements
+## Acknowledgements
 
 Protocol details were derived from [RS-WFWATTCH2を使ってPCの消費電力(実測値)をモニタリングしてみよう - @yamaokunousausa(うさうさ)](https://qiita.com/yamaokunousausa/items/2faedd6481093e73e2ca).
 
