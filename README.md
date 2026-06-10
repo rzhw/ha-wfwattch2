@@ -6,7 +6,7 @@ Custom Home Assistant integration for Ratoc RS-WFWATTCH2.
 
 - Creates **Current (A)**, **Power (W)** and **Voltage (V)** sensor entities
 - Configurable via the HA UI (Settings → Devices & Services → Add Integration)
-- Polls every 5 seconds over LAN
+- Polls via local network, configurable interval (default 10 seconds)
 - **Untested:** Multiple device support
 - Japanese translations included
 
@@ -17,7 +17,9 @@ Custom Home Assistant integration for Ratoc RS-WFWATTCH2.
 
 ## Installation
 
-1. Copy the `custom_components/wfwattch2` folder into your Home Assistant `config/custom_components/` directory
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=rzhw&repository=ha-wfwattch2&category=integration)
+
+1. Use the HACS link above, or copy the `custom_components/wfwattch2` folder into your Home Assistant `config/custom_components/` directory
 2. Restart Home Assistant
 3. Go to **Settings → Devices & Services → Add Integration**
 4. Search for "Ratoc RS-WFWATTCH2 Watt Checker"
@@ -32,4 +34,3 @@ Protocol details were derived from [RS-WFWATTCH2を使ってPCの消費電力(�
 
 - Add energy tracking via HA's `integration` helper (Riemann sum of power → kWh)
 - ON/OFF switch entity (the device supports remote power control)
-- HACS support
